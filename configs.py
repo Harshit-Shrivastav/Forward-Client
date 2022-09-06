@@ -12,6 +12,8 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION")
     # Forward From Chat ID
     FORWARD_FROM_CHAT_ID = list(set(int(x) for x in os.environ.get("FORWARD_FROM_CHAT_ID", "-100").split()))
+    #offset
+    OFFSET = os.environ.get("OFFSET")
     # Forward To Chat ID
     FORWARD_TO_CHAT_ID = list(set(int(x) for x in os.environ.get("FORWARD_TO_CHAT_ID", "-100").split()))
     # Filters for Forwards
