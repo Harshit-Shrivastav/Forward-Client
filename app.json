@@ -38,6 +38,9 @@
             "description": "Minimum File Size for Media Message to be able to Forward. Should be in Bytes.",
             "required": false
         },
+        "OFFSET": {
+            "description": "Enter offset id"
+        },
         "BLOCK_FILES_WITHOUT_EXTENSIONS": {
             "description": "Value can be `True`/`False`. If `True` those files which doesn't have file extension will not be Forwarded.",
             "required": false
